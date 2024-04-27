@@ -33,7 +33,7 @@ node decrypt.js
 
 - If you need to use for production please make sure to replace the encryption/decryption algorithm with a more secure algorithm!
 
-- Final note we used here the pipeline logic instead of .pipe() to create the stream because as stated in node documentation .pipe() does not destroy the created files and deallocate from memory the buffer if an error occurs during the stream operations.
+- Final note we used here the pipeline logic instead of .pipe() to create the stream because as stated in node documentation .pipe() neither destroys the created files nor deallocates the allocated resources for the buffers from memory (which could cause memory leakage) if an error occurs during the stream operations.
 
 ## Contributing
 
