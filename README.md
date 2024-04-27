@@ -2,6 +2,7 @@
 
 This project is a simple Node.js application that encrypts/decrypts file data using a simple Caesar cipher algorithm (used just for demonstration more complex algorithm like RSA,AES,DES could be used for production projects) using readable,writable,and transform streams.
 
+This logic could be extended to be used over network,cloud. In other words it is not limited to file system usage we could be streaming encrypted data in a very fast way using readable writable and transform streams and on the other side (for example 2 servers communicating together) we could be reading from that stream decrypting that data and transforming into writable (human readable data).
 ## Features
 
 - File Encryption Into another destination folder.
