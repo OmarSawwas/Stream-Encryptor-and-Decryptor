@@ -15,13 +15,13 @@ This project is a simple Node.js application that encrypts/decrypts file data us
 
 ## Usage
 
-**For encryption using**
+**For encryption use**
 
 ```CLI
 node encrypt.js
 ```
 
-**For decryption using**
+**For decryption use**
 
 ```CLI
 node decrypt.js
